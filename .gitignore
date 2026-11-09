@@ -9,3 +9,34 @@ __pycache__/
 .packages
 build/
 .flutter-*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Android / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.gradle/
+local.properties
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
